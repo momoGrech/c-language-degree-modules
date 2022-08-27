@@ -472,11 +472,4 @@ int main(int argc, char* argv[]){
 	return EXIT_SUCCESS; 
 }
 
-/*
-IMPORTANT NOTE: 
-Please note that some of my implementation such as spliting the image into batches was 
-a preparation for multithreading. Unfortunately, I did not manage to complete the full task in time.
-*/
-
-
 // clear; gcc Task_4/tas4_boxBlur.c Task_4/lodepng.c -lm; ./a.out 5; rm a.out
